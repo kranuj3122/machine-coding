@@ -1,0 +1,27 @@
+body{
+    background-color: #eee;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+ul {
+    list-style-type: none;
+    max-width: 200px;
+    padding: 0;
+}
+ul li {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 5px auto;
+    background-color: #ccc;
+}
+
+ul li span {
+    flex: 1;
+}
